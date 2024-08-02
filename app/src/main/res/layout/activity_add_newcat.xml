@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewcatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/gray"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Url"
+        android:textColor="@color/gray"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/addImg"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/addBtn"
+        android:textSize="20sp"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:backgroundTint="@color/babypink" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/backBtn"
+        android:textSize="20sp"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:backgroundTint="@color/babypink" />
+
+
+
+</LinearLayout>

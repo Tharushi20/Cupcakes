@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452132640000",
+    "project_id": "cupcakes-37dda",
+    "storage_bucket": "cupcakes-37dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452132640000:android:9d0d6b4fd60aac56620fe5",
+        "android_client_info": {
+          "package_name": "com.example.cupcakes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUdgwXjUl716rB8cUfkSEardiB_V5QYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

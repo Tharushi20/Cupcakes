@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/item_background">
+
+    <CheckBox
+        android:id="@+id/cartItemCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/cartItemImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/cartItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cartItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Price"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cartItemQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cartIncreaseQuantity"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="+"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:stateListAnimator="@null"
+            android:padding="0dp"
+            android:elevation="0dp"
+            android:layout_marginBottom="4dp" />
+
+        <Button
+            android:id="@+id/cartDecreaseQuantity"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:text="-"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:stateListAnimator="@null"
+            android:padding="0dp"
+            android:elevation="0dp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/cartDeleteItem"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="X"
+        android:textColor="#FF0000"
+        android:backgroundTint="#FFFFFF"
+        android:stateListAnimator="@null"
+        android:padding="0dp"
+        android:elevation="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp" />
+
+</LinearLayout>
+
